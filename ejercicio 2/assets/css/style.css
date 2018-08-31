@@ -33,6 +33,15 @@ div{
     background-color: rgba(255, 0, 0, 0.5);
 }
 
-table > tbody > tr> td > div:hover{
+td:hover div{
     visibility: visible;
+}
+
+.pie{
+    width: 10em;
+    height: 10em;
+}
+a{
+    text-decoration: none;
+    color: black;
 }
