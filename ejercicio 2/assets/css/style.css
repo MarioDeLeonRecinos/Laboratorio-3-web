@@ -1,0 +1,38 @@
+*{
+    margin: auto auto;
+}
+
+h1{
+    margin: 0.5em 0em;
+    text-align: center;
+    font-size: 5em;
+}
+
+table > tbody > tr >td{
+    width: 5em;
+    height: 5em;
+}
+
+div{
+    visibility: hidden;
+}
+
+.black{
+    background-color: black;
+}
+
+.white{
+    background-color: white;
+}
+
+.black:hover{
+    background-color: rgba(255, 0, 0, 0.5);
+}
+
+.white:hover{
+    background-color: rgba(255, 0, 0, 0.5);
+}
+
+table > tbody > tr> td > div:hover{
+    visibility: visible;
+}
