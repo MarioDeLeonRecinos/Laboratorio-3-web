@@ -4,6 +4,105 @@
     font-family: 'Roboto', sans-serif;
 }
 
+nav{
+    background-color: #2d3436;
+    margin-bottom: 2%;
+}
+
+.logo-container{
+    display: inline-block;
+    padding: 10px;
+}
+
+nav > ul{
+    display: inline;
+    padding: 20px;
+    margin-left: 5%;
+}
+ul > li{
+    display: inline;
+}
+
+li > a {
+    padding: 20px;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#main{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+article{
+    margin: 12px 12px;
+}
+
+figure > img{
+    width: 100%;
+}
+
+figcaption{
+    margin-left: 10px;
+    font-size: 0.9rem;
+}
+
+a{
+    color: #0984e3;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+figure{
+    margin-top: 7px;
+    margin-bottom: 7px; 
+}
+
+footer{
+    background-color: #2d3436;
+    padding: 20px;
+    color: white;
+}
+
+label{
+    padding-bottom: 3px;
+    padding-top: 3px;
+    display: block;
+}
+
+.section-footer{
+    display: inline-block;
+    margin: 0% 15%;
+}
+fieldset{
+    border: none;
+}
+
+.input-group{
+    padding: 7px;
+}
+
+input[type=email]{
+    padding: 7px;
+    border: none;
+    border-radius: 4px;
+}
+input[type=submit]{
+    padding-top: 6px;
+    padding-bottom: 6px;
+    border: none;
+    background-color: #d35400;
+    color: white;
+    font-weight: bold;
+    border-radius: 4px;
+    font-size: 1rem;
+    padding-left: 10px;
+    padding-right: 10px
+}
+label > span{
+    color: #d35400;
+}
 /*
 0. Aplicar a todos los elementos el siguente estilo:
     0.1 Quitar marges
@@ -40,8 +139,8 @@
 12. Aplicar al footer.
     12.1 Color de fondo #2d3436.
     12.2 Paddin de 20px.
-    12.3 Color de texto blanco.
-13. Aplicar a las etiquetas <label> vista en bloque y padding inferior y superior de 3px.
+    12.3 Color de texto blanco.*/
+/*13. Aplicar a las etiquetas <label> vista en bloque y padding inferior y superior de 3px.
 14. Aplicar a la case section-footer.
     14.1 Vista en linea.
     14.2 Margen derecho e izquierdo de 15%.
