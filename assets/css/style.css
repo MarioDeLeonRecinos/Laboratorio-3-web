@@ -1,0 +1,57 @@
+*{
+    margin: auto auto;
+    padding: 0em;
+}
+
+input[type="button"]{
+    color: #7f7f7f;
+    border-radius: 0.2em;
+    margin: 0.8em 0.8em;
+    text-transform: uppercase;
+    font-family: 'Mukta', sans-serif;
+    padding: 0.1em 0.6em;
+    border: none;
+    background-color: #f4f3f2;
+}
+
+nav{
+    background-color: #2d3436;
+    margin-top: 0em;
+}
+
+h1{
+    margin-top: 0em;
+    background-color: #2d3436;
+    margin-bottom: 2%;
+    color: orange;
+    text-align: center;
+    font-size: 5em;
+}
+
+p{
+    margin: 3em;
+    text-align: center
+}
+
+.normal{
+    font-size: 1.6em;
+}
+
+input[type="button"].esmeralda{
+    background-color: #57d68d;
+    color: #57d68d;
+}
+
+input[type="button"].cielo{
+    background-color: #5cace2;
+    color: #5cace2;
+}
+
+input[type="button"].amatista{
+    background-color: #ae7ac4;
+    color: #ae7ac4;
+}
+
+input[type="button"].LBlanca{
+    color: white;
+}

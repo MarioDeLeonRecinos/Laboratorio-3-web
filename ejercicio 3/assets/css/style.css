@@ -1,0 +1,70 @@
+*{
+    margin: 0.1em;
+    padding: 0.1em;
+}
+
+h1{
+    margin: 1.2em 0;
+}
+
+input[type="button"]{
+    color: #7f7f7f;
+    border-radius: 0.2em;
+    margin: 0.8em 0.8em;
+    text-transform: uppercase;
+    font-family: 'Mukta', sans-serif;
+    padding: 0.1em 0.6em;
+    border: none;
+    background-color: #f4f3f2;
+}
+
+.pequeño{
+    font-size: 1em;
+}
+
+.normal{
+    font-size: 1.6em;
+}
+
+.grande{
+    font-size: 2.1em;
+}
+
+input[type="button"].asfal{
+    background-color: #5c6d7e;
+    color: #5c6d7e;
+}
+
+input[type="button"].topazio{
+    background-color: #ea974e;
+    color: #ea974e;
+}
+
+input[type="button"].rubi{
+    background-color: #eb6f62;
+    color: #eb6f62;
+}
+
+input[type="button"].esmeralda{
+    background-color: #57d68d;
+    color: #57d68d;
+}
+
+input[type="button"].cielo{
+    background-color: #5cace2;
+    color: #5cace2;
+}
+
+input[type="button"].amatista{
+    background-color: #ae7ac4;
+    color: #ae7ac4;
+}
+
+input[type="button"].Borde{
+    border: 1px solid;
+    background-color: white;
+}
+
+input[type="button"].LBlanca{
+    color: white;
+}
